@@ -2,13 +2,13 @@
 using namespace std;
 
 //function definition
-void printHello(){
-    cout<<"Hello world";
+void sumInt(int a, int b){
+    cout<<"Sum of values: "<<a+b;
 }
 
 
 int main() {
   //function call
-    printHello();
+    sumInt(5,6);
     return 0;
 }
